@@ -1,0 +1,106 @@
+# ====================================
+# Portfolio Website - .gitignore
+# For static HTML/CSS/JS project
+# ====================================
+
+# --- Operating System Files ---
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*.directory
+*~
+
+# --- Editor / IDE Files ---
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+*.log
+
+# IntelliJ / WebStorm / PHPStorm
+.idea/
+*.iml
+*.iws
+out/
+.settings/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim / Emacs
+*.swp
+*.swo
+*~
+.#*
+\#*#
+
+# --- Project Specific (if you add build tools later) ---
+# Node.js (if you ever add package.json for tooling)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Build outputs (if using bundlers like Vite, Webpack)
+dist/
+build/
+out/
+*.bundle.js
+
+# Environment files (sensitive data - even for frontend)
+.env
+.env.local
+.env.*.local
+*.env
+
+# --- Temporary & Log Files ---
+*.log
+*.tmp
+*.temp
+.cache/
+tmp/
+
+# --- Backup Files ---
+*.bak
+*.backup
+*.old
+*.orig
+
+# --- Design / Asset Sources (optional - only if you work with source design files) ---
+# Uncomment if you have design source files you don't want to commit
+# *.psd
+# *.ai
+# *.sketch
+# *.fig
+# assets/design-sources/
+
+# --- Local Configurations ---
+.vscode/settings.json
+.vscode/tasks.json
+.local/
+
+# --- User-specific files (for any local testing) ---
+*.user
+*.userworkspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
